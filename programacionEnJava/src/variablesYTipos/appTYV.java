@@ -24,10 +24,13 @@ public class appTYV {
         soymaspreciso = 5145.146;
         palabraCorta = 'a';
 
-        int creado2016 = 6546532;
+        int creado2016 = 6546532, resultado;
+        //Casting
+        resultado = (int) (soydecimal * entero);
 
-        System.out.println(dias + entero + soymaspreciso + soyUnaPalabra + palabraCorta + soydecimal + palabraCorta + "Son algunas de las variables que se pueden presentar aqui" + elige);
 
+        //System.out.println(dias + entero + soymaspreciso + soyUnaPalabra + palabraCorta + soydecimal + palabraCorta + "Son algunas de las variables que se pueden presentar aqui" + elige);
+        System.out.println(resultado);
 
     }
 }
