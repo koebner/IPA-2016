@@ -9,5 +9,6 @@ public class principal {
         ClasedeAcceso objeto2 = new ClasedeAcceso();
         objeto2.defineCadena1("Hola soy una cadena que se agregara a una variable privada");
         System.out.println(objeto2.consigueCadena1());
+        //sistema principal
     }
 }
